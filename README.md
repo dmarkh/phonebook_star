@@ -15,7 +15,7 @@ Reason for development: no opensource or commercial off-the-shelf products avail
 ## Implementation:
 
  * Entities: Institution, Member, Field, FieldGroup
- * MySQL database backend (EAV model, schema-free) which has detailed historical information on every member of sPHENIX collaboration. New fields could be configured by admin on a fly without any service downtime or schema updates
+ * MySQL database backend (EAV model, schema-free) which has detailed historical information on every member of STAR collaboration. New fields could be configured by admin on a fly without any service downtime or schema updates
  * Web-based UI: admin UI + user UI, rich set of features
  * Provides RESTful API for integration with other experiment tools like ShiftSignup, ShiftLog
 
