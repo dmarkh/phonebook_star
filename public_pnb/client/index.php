@@ -5,14 +5,6 @@ if(empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off"){
     header('Location: ' . $redirect);
     exit();
 }
-/*
-  require_once('/opt/simplesaml/lib/_autoload.php');
- 
-  $as = new SimpleSAML_Auth_Simple('star-sso');
-  $as->requireAuth();
-  $attributes = $as->getAttributes();
-  print_r($attributes);
-*/
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
